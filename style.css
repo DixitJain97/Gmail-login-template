@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body > header {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+}
+.container {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.container > img {
+}
+
+.container > div {
+  align-self: center;
+}
+
+.fa-air-freshener:before {
+  margin-left: 15px;
+}
+
+body > section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  color: red;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 300px;
+}
+
+.content > .text {
+  max-width: 500px;
+}
+
+.content > .text > p {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content > .text > p > a {
+  text-decoration: none;
+  color: #0bb5ff;
+}
+
+/* form styling */
+.content > form {
+  background-color: #f0f0f0;
+  padding: 3%;
+  max-width: 340px;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.content > form > input {
+  border: 1px solid #d8d8d8;
+}
+.content > form > input[type="email"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: right;
+}
+
+#name_first {
+  max-width: 47%;
+  margin-right: 4%;
+  margin-bottom: 12px;
+  margin-top: 4px;
+  height: 26px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+#name_last {
+  max-width: 47%;
+  height: 26px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+#email_address {
+  height: 26px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 5px 0px 0px;
+}
+#phone_number {
+  height: 26px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+#email_address_old {
+  height: 26px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+#submit_button {
+  height: 26px;
+  margin-top: 4px;
+  padding: 0px 8px;
+  box-sizing: content-box;
+  color: #fff;
+  background-color: #0bb5ff;
+  margin-left: auto;
+  margin-right: 0px;
+  display: block;
+}
+
+body > footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+}
+footer > ul {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  padding: 10px 30px;
+  margin: 0px;
+}
+
+footer > ul > .list_item {
+  margin-right: 20px;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+}
+@media only screen and (max-width: 768px) {
+  section > .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  section > .tagline {
+    text-align: center;
+  }
+}

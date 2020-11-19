@@ -18,6 +18,9 @@ body > header {
 .container > div {
   align-self: center;
 }
+.container > div > a {
+  color: #000;
+}
 
 .fa-air-freshener:before {
   margin-left: 15px;
@@ -86,13 +89,13 @@ body > section {
 }
 #name_last {
   max-width: 47%;
-  height: 26px;
+  height: 28px;
   box-sizing: border-box;
   padding: 0px;
 }
 
 #email_address {
-  height: 26px;
+  height: 28px;
   margin-top: 4px;
   margin-bottom: 12px;
   width: 100%;
@@ -100,7 +103,7 @@ body > section {
   padding: 0px 5px 0px 0px;
 }
 #phone_number {
-  height: 26px;
+  height: 28px;
   margin-top: 4px;
   margin-bottom: 12px;
   width: 100%;
@@ -108,7 +111,7 @@ body > section {
   padding: 0px;
 }
 #email_address_old {
-  height: 26px;
+  height: 28px;
   margin-top: 4px;
   margin-bottom: 12px;
   width: 100%;
@@ -116,7 +119,7 @@ body > section {
   padding: 0px;
 }
 #submit_button {
-  height: 26px;
+  height: 28px;
   margin-top: 4px;
   padding: 0px 8px;
   box-sizing: content-box;
@@ -125,6 +128,11 @@ body > section {
   margin-left: auto;
   margin-right: 0px;
   display: block;
+  border: none;
+  border-radius: 2px;
+}
+#submit_button:hover {
+  cursor: pointer;
 }
 
 body > footer {
@@ -146,6 +154,11 @@ footer > ul > .list_item {
   font-size: 16px;
   line-height: 20px;
 }
+footer > ul > .list_item > a {
+  color: black;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 768px) {
   section > .content {
     flex-direction: column;
